@@ -117,7 +117,7 @@ nav li a{
     display: grid;
     grid-template-columns: 30rem 30rem;
 }
-.shop{
+.shoplook{
     margin-bottom: 1rem;
     margin-top: 3rem;
     border-bottom: 1px solid rgb(238, 238, 238);
@@ -126,15 +126,15 @@ nav li a{
 #fashion{
     align-self: center;
 }
-#shop{
+#shoplook{
     display: flex;
     margin-bottom: 2rem;
     font-size: 0.7rem;
 }
-#shop div{
+#shoplook div{
     margin-left: 1rem;
 }
-#shop a{
+#shoplook a{
     font-weight: bold;
     text-decoration: underline;
     margin-top: 0.5rem;

@@ -10,7 +10,7 @@ body{
     font-size: small;
 }
 
-#main{
+#shop{
     margin-left: 5rem;
 }
 h1{
@@ -34,12 +34,12 @@ nav{
 nav li{
     margin-left: 2rem;
 }
-#main{
+#shop{
     display: grid;
     grid-template-columns: 12rem 12rem 12rem 20rem 10rem;
     grid-gap: 0.3rem;
 }
-#image165{
+#image{
     align-self: center;
 }
 li{

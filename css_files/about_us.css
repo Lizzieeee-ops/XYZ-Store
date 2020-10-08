@@ -106,7 +106,7 @@ nav{
 nav li a{
     background-color: #FDFDFD;
 }
-#total{
+#nav{
     position: sticky;
     top: 0;
     z-index: 5;
@@ -239,11 +239,11 @@ footer input{
 #copyright{
    padding-bottom: 1rem;
 }
-#blank a{
+#footer-social a{
    border: none;
    background-color: #FBFBFB;
 }
-#blank{
+#footer-social{
    display: flex;
    margin-right: 20rem;   
 }
