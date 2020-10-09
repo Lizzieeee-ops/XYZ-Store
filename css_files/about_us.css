@@ -4,13 +4,8 @@
     border: 0;
     box-sizing: border-box;
 }
-*{
-    margin: 0;
-    border: 0;
-    box-sizing: border-box;
-}
 /*utiliy style*/
-#no, #who, #ceo, #xyz {
+#aim, #about, #ceo, #history {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.7rem;
     line-height: 1.5;
@@ -22,7 +17,7 @@
     color: rgb(128, 125, 125);
     
 }
-#icon{
+#icons{
     display: grid;
     grid-template-columns: 1rem 1rem 1rem 1rem;
     grid-gap: 2rem;
@@ -112,12 +107,12 @@ nav li a{
     z-index: 5;
 }
 
-#small{
+#home{
     font-size: xx-small;
     margin-bottom: 1rem;
     margin-left: 8rem;
 }
-#small span{
+#home span{
     color: rgb(218, 213, 213);
 }
 /*about us*/
@@ -127,13 +122,13 @@ nav li a{
     grid-template-columns: repeat(2, 500px);
     margin-left: 5rem;
 }
-#no img{
+#aim img{
     margin-bottom: 1rem;
 }
- #ceo, .longer, #image, #image, #who, #no{
+ #ceo, .build, #image, #about, #aim{
     margin-bottom: 1rem;
 }
-#who{
+#about{
     text-align: center;
     margin-top: 3rem;
     margin-bottom: 4rem;
@@ -145,21 +140,21 @@ nav li a{
     grid-template-columns: repeat(2, 1fr);
     
 }
-#no{
+#aim{
     margin-top: 2rem;
 }
-#who, #no, #ceo{
+#about, #aim, #ceo{
     padding: 0 10rem;
 }
-#who img{
+#about img{
     margin-top: 2rem;
 }
-#image, .longer{
+#image, .build{
     background-color: rgb(206, 205, 205);
     color: rgb(128, 125, 125);
     
 }
-.longer{
+.build{
     padding-top: 3rem;
     padding-left: 8rem;
 }
@@ -186,7 +181,7 @@ nav li a{
 #beyond{
     margin-left: 6rem;
 }
-#xyz{
+#history{
     padding-right: 10rem;
     padding-top: 5rem;
     padding-bottom: 3rem;
